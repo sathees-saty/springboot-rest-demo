@@ -1,22 +1,5 @@
 # springbooyt-rest-demo
-Create Spring Boot REST Service and Test it via Postman
-Step 1 – Create a new Maven Project using Spring Tool Suit 4
-Step 2 – Add the following Spring Boot dependencies to the POM file and save.
-	spring-boot-starter-parent
-	spring-boot-starter-web
-Step 3 – Create Person POJO class
-Step 4 – Create a PersonController class 
-		Add @RestController at class level, This designates the class as a REST controller.
-		Add functions to return all persons, new persons as GET REST service
-Type of REST web services
-	GET - Used to retrieve data from a server. - implemented
-	POST - Used to send data to an API. - implemented
-	PUT - Used to modify a resource. 
-	DELETE- Removes a record from the database
-Step 5 – create a Main.java (Spring boot Application class)
-Step 6 – Run Main.java as a Java application
-Testing Via Postman:
---------------------
+
 Select Request Type as “GET”
 Enter URL as “http://localhost:8080/person/”
 Click on “Send”.
